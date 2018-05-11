@@ -625,6 +625,7 @@ function deactivateUpperMenus(){
 	deactivateOneUpperMenu("tab-upper-course");
 	deactivateOneUpperMenu("tab-upper-program");
 	deactivateOneUpperMenu("tab-upper-groups");
+	deactivateOneUpperMenu("tab-upper-new-tab");
 }
 
 function deactivateOneUpperMenu(menuid){
