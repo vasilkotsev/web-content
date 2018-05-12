@@ -953,3 +953,33 @@ jQuery(window).scroll(function () {
 		factCounter();
 	})(jQuery);
 });
+
+
+/* 33.jQuery Real Person functionality */
+$('#defaultReal').realperson({
+	length: 5,// Number of characters to use 
+	regenerate: 'Смени изображението' // Instruction text to regenerate 
+});
+
+
+/* 34.Dialog widget for popup captcha */
+$(function () {
+	$("#dialog").dialog({
+		autoOpen: false,
+		show: {
+			effect: "blind",
+			duration: 1000
+		},
+		hide: {
+			effect: "explode",
+			duration: 1000
+		}
+	});
+
+	$("#opener").on("click", function () {
+		$("#dialog").dialog("open");
+	});
+});
+
+
+

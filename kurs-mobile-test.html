@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -288,8 +288,22 @@ integration, maven. Ще се запознаете с популярни junit �
                     </div>
 
                     <div class="tab" id="tab-four" style="display: none;">
-                        <div class="text">
-                            PROBA
+                        <div class="real-person-captcha">
+                            <form action="#" method="post">
+                                <p>
+                                    <label>Моля въведете в полето буквите от изображението:</label>
+                                    <input type="text" id="defaultReal" name="defaultReal">
+                                </p>
+                                <p style="clear: both;">
+                                    <label>&nbsp;</label>
+                                    <!-- <input id="opener" type="submit" value="Изпрати"> -->
+                                    
+                                </p>
+                            </form>
+                            <div id="dialog" title="Basic dialog">
+                                <p>Вие познахте капчата</p>
+                            </div>
+                            <button id="opener">Open Dialog</button>
                         </div>
                     </div>
                     
@@ -680,6 +694,11 @@ GPS: 42.670192, 23.350884</li>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/imagezoom.js"></script> 
     <script id="map-script" src="js/default-map.js"></script>
+
+     <!-- jQuery Real Person-captcha -->
+    <script type="text/javascript" src="js/jquery.plugin.js"></script>
+    <script type="text/javascript" src="js/jquery.realperson.js"></script>
+
     <script src="js/custom.js"></script>
 
 </div>
